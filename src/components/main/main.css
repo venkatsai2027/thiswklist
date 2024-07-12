@@ -1,0 +1,43 @@
+h1 {
+	font-family: cursive;
+	font-size: 50px;
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(249,8,126,1) 62%, rgba(252,176,69,1) 100%);
+	-webkit-background-clip:text;
+	color: transparent;
+}
+
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.content img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.content span {
+	font-family: cursive;
+	font-size: 50px;
+	background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.content p {
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 30px;
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 81%, rgba(252,176,69,1) 100%);
+	-webkit-background-clip: text;
+	color: transparent;
+}
